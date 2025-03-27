@@ -23,22 +23,39 @@ The research conducts a data analysis of community food markets alongside farmer
 Dataset: 
 
 This dataset contains information about various community food markets and farmers markets. The key features included are:
+
 •	Year: The year the market was active
+
 •	Market Type: Indicates whether it’s a community food market or a farmers market
-•	Market Name / Location / Host: Name of the market, its location, and the hosting organization
+
+•	Market Name: Name of the market, its location, and the hosting organization
+
 •	Market Operator: The organization that operates the market
+
 •	Street Number: The number part of the street address
+
 •	Street Direction: The directional part of the street address (e.g., N, S, E, W)
+
 •	Street Name: The name of the street
+
 •	Street Type: Type of street (e.g., St, Ave)
+
 •	Merged Address: Full street address
+
 •	Market Direction: Additional location details or landmarks
+
 •	Website: Web address for more information about the market
+
 •	Day: The day(s) the market is held
+
 •	Open: Market opening time
+
 •	Close: Market closing time
+
 •	Months: The months during which the market is in operation
+
 •	Number of Vendors: Total number of vendors participating
+
 •	Offerings: Types of goods sold (e.g., produce, meat, seafood, cheese, prepared foods)
 
 Methodology: 
