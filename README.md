@@ -1,5 +1,10 @@
 # data-analyst-saugat
 
+Draw.io:
+
+![Screenshot 2025-03-26 183315](https://github.com/user-attachments/assets/78541fb8-e686-4284-92e8-5fa35478c62c)
+
+
 Descriptive Data Analysis of Community Food Markets and Farmers Markets. 
 
 The research project conducts a descriptive analysis of both community food markets and farmers markets. 
@@ -51,6 +56,9 @@ Tools and Technologies that I used in AWS:
 
 ![Community Farmers Market and Food Market Data Ingestion](https://github.com/user-attachments/assets/e6e6580d-f73a-4b06-ae75-d58e89bc97c9)
 
+![S3 Buckets  Data Ingestion](https://github.com/user-attachments/assets/3c1acb73-2568-46cc-9037-98d48099ec13)
+
+
  
 S3 folder structure showing fm-raw-sau path
 A structured folder path allowed the transmission of FoodMarket.csv to Amazon S3 as part of the process. Storage organization alongside retrieval efficiency creates the data pipeline base during this step.
@@ -82,6 +90,7 @@ ETL pipelines performed summary operations on vendor data through filter-based a
 5. Data Cataloging with AWS Glue Catalog: 
  
 ![Data Catalog](https://github.com/user-attachments/assets/53005e44-96ff-4acf-9154-d3225bf632c8)
+![Data cataloging tables](https://github.com/user-attachments/assets/d2f1cad2-d5b4-4718-8ba1-8b6e1be050a5)
 
 
 AWS Glue Crawlers both analyzed the data and created Glue Catalog metadata tables to enable users to search, access and analyze the dataset using Athena or Redshift.
@@ -105,6 +114,9 @@ SSE-KMS encryption combined with versioning and cross-bucket replication functio
 8. Data Governance & Quality Check:
  
 ![10](https://github.com/user-attachments/assets/0a815947-323e-49e5-80db-0e42bcd5ae38)
+![12](https://github.com/user-attachments/assets/26ffc8f4-0ed7-4247-9a6c-e97e149c94d2)
+![11](https://github.com/user-attachments/assets/5aac7bb1-dcb5-44bb-93f8-c6c5eb422b91)
+
 
 
 The validation process directed the data to either the “Passed” or “Failed” folders through application of quality standards. The platform's validation measure directed reliable data into specified folders which enhanced the quality of information for analyzes.
@@ -123,12 +135,6 @@ The storage and usage metrics came under CloudWatch monitoring while CloudTrail 
 
 
 Visual analysis demonstrated changing market trends regarding growth and decline in various market types. The number of Farmers Markets stayed level but Community Food Markets expanded until policy changes led to their decrease.
-
-Draw.io:
-
-
- ![Screenshot 2025-03-26 180039](https://github.com/user-attachments/assets/15dbd1e9-8132-46e9-8df6-70cedafb4123)
-
 
 
 Conclusion:
